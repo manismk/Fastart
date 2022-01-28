@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Shizuru&display=swap");
+
+:root {
+  --primary-color: #065f46;
+  --half-grey: #f1f5f9;
+  --white: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  background-color: var(--half-grey);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  min-height: 10vh;
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.logo {
+  /* color: var(--primary-color); */
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.25px;
+}
+
+.container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+
+.container .description {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.action-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+
+  margin-right: 2rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
