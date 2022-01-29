@@ -1,0 +1,61 @@
+.sidenavbar {
+  padding: 1rem;
+  overflow-y: auto;
+  max-width: 10rem;
+  position: fixed;
+  top: 12vh;
+  bottom: 0;
+  margin: 1rem;
+  margin-top: 2rem;
+  height: 80%;
+}
+
+nav .side--nav--link,
+.pagination--link {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  color: var(--black);
+  border-radius: 5px;
+}
+nav .side--nav--link:hover,
+nav .side--nav--link:focus {
+  background-color: var(--success-light);
+  font-weight: 500;
+}
+nav .active {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+nav .active:hover,
+nav .active:focus {
+  background-color: var(--primary-color);
+}
+
+.main--container {
+  margin-left: 11rem;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-weight: 500;
+}
+
+.embed--code {
+  width: 100%;
+  overflow-y: auto;
+  border-radius: 5px;
+  border: none;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  padding-right: 3rem;
+}
+
+.pagination--link:hover,
+.pagination--link:focus {
+  font-weight: 600;
+}
