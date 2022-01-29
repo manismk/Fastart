@@ -32,12 +32,12 @@
 .badge--status {
   width: 0.8rem;
   height: 0.8rem;
+  border: 1.5px solid var(--bg-color);
 }
 
 .badge--bottom--right {
   bottom: 0.5rem;
   right: 1rem;
-  border: 1.5px solid var(--bg-color);
 }
 
 .badge--online {
