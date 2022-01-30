@@ -1,0 +1,52 @@
+@import url(/components/avatar/avatar.css);
+
+.badge--container {
+  position: relative;
+  display: inline-block;
+}
+
+.badge {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.badge--primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+.badge--secondary {
+  background-color: var(--danger-dark);
+  color: var(--white);
+}
+
+.badge--top--right {
+  top: -0.75rem;
+  right: -0.75rem;
+}
+.badge--status {
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 1.5px solid var(--bg-color);
+}
+
+.badge--bottom--right {
+  bottom: 0.5rem;
+  right: 1rem;
+}
+
+.badge--online {
+  background-color: var(--primary-color);
+}
+
+.badge--busy {
+  background-color: var(--danger-dark);
+}
+.badge--offline {
+  background-color: var(--grey);
+}

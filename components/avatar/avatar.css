@@ -1,0 +1,24 @@
+.avatar {
+  object-fit: contain;
+}
+.avatar--circle {
+  border-radius: 50%;
+}
+.avatar--square {
+  border-radius: 5px;
+}
+.avatar--xs {
+  width: 3rem;
+}
+.avatar--sm {
+  width: 3.5rem;
+}
+.avatar--md {
+  width: 4rem;
+}
+.avatar--lg {
+  width: 4.5rem;
+}
+.avatar--xl {
+  width: 5rem;
+}
