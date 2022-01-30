@@ -1,0 +1,38 @@
+.alert {
+  padding: 0.8rem 1.2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border-left: 3px solid;
+  width: fit-content;
+}
+
+.alert--close {
+  background-color: transparent;
+  border: none;
+  margin-left: 1rem;
+  cursor: pointer;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: inherit;
+}
+.alert--success {
+  background-color: var(--success-light);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.alert--error {
+  background-color: var(--danger-light);
+  color: var(--danger-dark);
+  border-color: var(--danger-dark);
+}
+.alert--message {
+  background-color: var(--alert-light);
+  color: var(--alert-dark);
+  border-color: var(--alert-dark);
+}
+.alert--information {
+  background-color: var(--info-light);
+  color: var(--info-dark);
+  border-color: var(--info-dark);
+}

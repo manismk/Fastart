@@ -10,7 +10,9 @@
   --danger-dark: #991b1b;
   --grey: #1f2937;
   --alert-light: #fef9c3;
-  --alert-dark: ;
+  --alert-dark: #92400e;
+  --info-dark: #1e40af;
+  --info-light: #dbeafe;
 }
 * {
   margin: 0;
@@ -41,7 +43,7 @@ body {
 }
 .h2 {
   font-size: 1.5rem;
-  padding: 1rem 0;
+  padding: 1rem 0 4px 0;
 }
 
 p {
