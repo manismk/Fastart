@@ -1,0 +1,74 @@
+.input--container {
+  max-width: 20rem;
+  position: relative;
+  margin: 1rem;
+}
+
+.input {
+  background-color: transparent;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input--label {
+  max-width: 70%;
+  position: absolute;
+  top: -0.4rem;
+  left: 1rem;
+  background-color: var(--bg-color);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: inherit;
+}
+
+.input--standard .input {
+  border-color: var(--grey);
+  color: var(--grey);
+}
+.input--standard .input--label {
+  color: var(--grey);
+}
+
+.input--primary .input {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+.input--primary .input--label {
+  color: var(--primary-color);
+}
+.input--error .input {
+  border-color: var(--danger-dark);
+  color: var(--danger-dark);
+}
+.input--error .input--label {
+  color: var(--danger-dark);
+}
+
+.input--error--message {
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--danger-dark);
+}
+
+.input--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.input--primary input[type="radio"],
+.input--primary input[type="checkbox"] {
+  accent-color: var(--primary-color);
+  cursor: pointer;
+}
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  cursor: pointer;
+}
