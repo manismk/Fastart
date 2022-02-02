@@ -1,0 +1,181 @@
+@import url(/components/button/button.css);
+@import url(/components/image/image.css);
+
+/* Card style */
+.card {
+  max-width: 16rem;
+  box-shadow: 2px 3px 10px 0px rgb(0 0 0 / 20%);
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.card .img--res {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card--content {
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.card--btn {
+  padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.card--title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.card--manufacturer {
+  font-size: 0.9rem;
+  padding: 5px 0;
+}
+
+.card--review--container,
+.card--price--container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 4px 0;
+}
+
+.card--review--star {
+  font-size: 0.7rem;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 3px;
+  border-radius: 2px;
+}
+
+.card--review--number {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.actual--price {
+  font-weight: 700;
+}
+
+.strike--price {
+  text-decoration: line-through;
+  font-size: 0.8rem;
+}
+
+.offer--percentage {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Card with badge style */
+.card--badge .icon--badge {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0.5rem;
+  top: 0.5rem;
+  padding: 2px 4px;
+  cursor: pointer;
+  background-color: var(--white);
+}
+
+.badge--text {
+  position: absolute;
+  transform: rotate(-45deg);
+  padding: 3px 3rem;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.badge--new {
+  color: var(--white);
+  background-color: var(--info-dark);
+  top: 4%;
+  left: -16%;
+}
+.badge--sold {
+  color: var(--white);
+  background-color: var(--danger-dark);
+  top: 5%;
+  left: -18%;
+}
+
+/* Disabled card style */
+
+.card--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Horizontal card style */
+.card--horizontal {
+  display: flex;
+  min-width: 25rem;
+}
+
+.card--horizontal .card--img--container {
+  width: 40%;
+}
+
+.card--content--btn--container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card--horizontal .img--res {
+  border-radius: 0.5rem 0 0 0.5rem;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* card with image overlay style */
+.card--overlay,
+.text--card {
+  max-width: 18rem;
+}
+
+.card--info {
+  padding: 0.8rem 1.2rem;
+}
+
+.card--footer,
+.card--description {
+  padding: 0.4rem 1.2rem;
+}
+
+.card--title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card--author,
+.card--description {
+  font-size: 1rem;
+}
+
+.card--footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card--btn--icons,
+.card--btn--action {
+  display: flex;
+  gap: 1rem;
+}
+
+.card--overlay .card--info {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Text card */
+.card--text img {
+  display: none;
+}

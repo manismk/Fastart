@@ -59,3 +59,7 @@ nav .active:focus {
 .pagination--link:focus {
   font-weight: 600;
 }
+
+.in-bl {
+  display: inline-block;
+}
