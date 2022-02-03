@@ -1,0 +1,43 @@
+.heading--1 {
+  font-size: 2.25rem;
+}
+.heading--2 {
+  font-size: 1.875rem;
+}
+.heading--3 {
+  font-size: 1.5rem;
+}
+.heading--4 {
+  font-size: 1.25rem;
+}
+.heading--5 {
+  font-size: 1rem;
+}
+.heading--6 {
+  font-size: 0.875rem;
+}
+
+.para--lg {
+  font-size: 1.875rem;
+  line-height: 1.3em;
+}
+.para--md {
+  font-size: 1.125rem;
+  line-height: 1.4em;
+}
+.para--sm {
+  font-size: 0.875rem;
+  line-height: 1.5em;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
+.text--grey {
+  color: var(--grey-text);
+}

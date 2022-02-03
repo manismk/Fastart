@@ -1,0 +1,30 @@
+.list {
+  list-style: none;
+}
+
+.list--space {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.list--stacked {
+  max-width: fit-content;
+  padding: 1rem;
+}
+.list--stacked .list--item {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+.list--primary {
+  background-color: var(--success-light);
+}
+
+.list--primary .list--item {
+  border-bottom: 1px solid var(--primary-color);
+}
+.list--primary .list--item:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
