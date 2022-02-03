@@ -13,6 +13,7 @@
   --alert-dark: #92400e;
   --info-dark: #1e40af;
   --info-light: #dbeafe;
+  --grey-text: #4b5563;
 }
 * {
   margin: 0;
