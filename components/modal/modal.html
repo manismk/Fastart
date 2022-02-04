@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fastart | Modal</title>
+    <link rel="stylesheet" href="/css/guide.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/docs.css" />
+    <link rel="stylesheet" href="/components/modal/modal.css" />
+    <script defer src="./modal.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Fastart</div>
+      <nav>
+        <a class="nav-link" href="#">Github</a>
+      </nav>
+    </header>
+    <main>
+      <aside class="sidenavbar">
+        <nav>
+          <a href="#" class="side--nav--link">Usage</a>
+          <a href="#" class="side--nav--link">Alert</a>
+          <a href="#" class="side--nav--link">Avatar</a>
+          <a href="#" class="side--nav--link">Badge</a>
+          <a href="#" class="side--nav--link">Button</a>
+          <a href="#" class="side--nav--link">Card</a>
+          <a href="#" class="side--nav--link">Image</a>
+          <a href="#" class="side--nav--link">Input</a>
+          <a href="#" class="side--nav--link">List</a>
+          <a href="#" class="side--nav--link active">Modal</a>
+          <a href="#" class="side--nav--link">Toast</a>
+          <a href="#" class="side--nav--link">Navigation</a>
+        </nav>
+      </aside>
+      <section class="main--container">
+        <div class="m-v-1">
+          <h1 class="h1 primary-heading">Modal</h1>
+          <p class="m-b-1">
+            Modal is used to provide the important information or action that
+            needs to be taken by the user.
+          </p>
+
+          <button class="btn btn--information modal--btn">Show Modal</button>
+
+          <div class="modal modal--alert hide">
+            <h5 class="modal--heading heading--4">Delete Element</h5>
+            <p class="modal--text">Are you sure you want to delete it?</p>
+            <div class="modal--actions">
+              <a
+                href="#"
+                class="link link--primary m-r-1"
+                onclick="closeModal()"
+                >Yes</a
+              >
+              <a
+                href="#"
+                class="link link--secondary m-r-1"
+                onclick="closeModal()"
+                >No</a
+              >
+            </div>
+          </div>
+          <div class="overlay hide"></div>
+
+          <iframe
+            src="https://carbon.now.sh/embed/hz9v2oCgU7MSLjLE2QjH"
+            class="embed--code m-v-1 m-b-2"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <div class="pagination">
+          <a href="#" class="pagination--link">&lt List </a>
+          <a href="#" class="pagination--link"> Toast &gt</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
