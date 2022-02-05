@@ -1,0 +1,57 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css);
+@import url(/components/list/list.css);
+
+.nav--container {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  min-height: 10vh;
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.nav--container .nav--items {
+  margin-left: auto;
+  transition: transform 0.2s ease;
+}
+
+.nav--container .logo {
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.nav--container .hamburger--icon {
+  display: none;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav--container .hamburger--icon {
+    display: block;
+  }
+
+  .nav--items {
+    position: absolute;
+    left: 0;
+    top: 10vh;
+    bottom: 0;
+    background-color: var(--success-light);
+    color: var(--primary-color);
+    padding: 1rem;
+    min-width: 25%;
+    overflow-y: auto;
+    transform: translateX(-1000%);
+  }
+
+  .nav--open .nav--items {
+    transform: translateX(0px);
+  }
+
+  .nav--items .list--space {
+    display: flex;
+    flex-direction: column;
+  }
+}
