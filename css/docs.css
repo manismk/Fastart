@@ -63,3 +63,8 @@ nav .active:focus {
 .in-bl {
   display: inline-block;
 }
+
+.container--nav--example {
+  border: 1px solid var(--primary-color);
+  position: relative;
+}
