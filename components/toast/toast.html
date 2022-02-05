@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fastart | Toast</title>
+    <link rel="stylesheet" href="/css/guide.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/docs.css" />
+    <link rel="stylesheet" href="/components/button/button.css" />
+    <link rel="stylesheet" href="/components/toast/toast.css" />
+    <script defer src="./toast.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Fastart</div>
+      <nav>
+        <a class="nav-link" href="#">Github</a>
+      </nav>
+    </header>
+    <main>
+      <aside class="sidenavbar">
+        <nav>
+          <a href="#" class="side--nav--link">Usage</a>
+          <a href="#" class="side--nav--link">Alert</a>
+          <a href="#" class="side--nav--link">Avatar</a>
+          <a href="#" class="side--nav--link">Badge</a>
+          <a href="#" class="side--nav--link">Button</a>
+          <a href="#" class="side--nav--link">Card</a>
+          <a href="#" class="side--nav--link">Image</a>
+          <a href="#" class="side--nav--link">Input</a>
+          <a href="#" class="side--nav--link">List</a>
+          <a href="#" class="side--nav--link">Modal</a>
+          <a href="#" class="side--nav--link">Slider</a>
+          <a href="#" class="side--nav--link active">Toast</a>
+          <a href="#" class="side--nav--link">Navigation</a>
+        </nav>
+      </aside>
+      <section class="main--container">
+        <div class="m-v-1">
+          <h1 class="h1 primary-heading">Toast</h1>
+          <p class="m-b-1">
+            Toast message is used to notify or inform the user about the action.
+          </p>
+
+          <button id="topRight" class="btn btn--information m-v-1">
+            show top right
+          </button>
+          <button id="bottomLeft" class="btn btn--information m-v-1">
+            show bottom left
+          </button>
+          <button id="bottomCenter" class="btn btn--information m-v-1">
+            show bottom center
+          </button>
+
+          <div class="alert alert--success toast toast--top--right hide">
+            This is success alert
+            <button class="alert--close">&times</button>
+          </div>
+          <div class="alert alert--message toast toast--bottom--left hide">
+            This is message alert
+            <button class="alert--close">&times</button>
+          </div>
+          <div class="alert alert--error toast toast--bottom--center hide">
+            This is danger alert
+            <button class="alert--close">&times</button>
+          </div>
+
+          <embed
+            src="https://carbon.now.sh/embed/I1GKaAPLg8F4xTOonTD1"
+            class="embed--code m-v-1 m-b-2"
+            sandbox="allow-scripts allow-same-origin"
+          />
+        </div>
+
+        <div class="pagination">
+          <a href="#" class="pagination--link">&lt Slider </a>
+          <a href="#" class="pagination--link"> Navigation &gt</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

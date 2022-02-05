@@ -1,0 +1,25 @@
+@import url(/components/alert/alert.css);
+
+.hide {
+  display: none;
+}
+.toast {
+  position: fixed;
+  transition: opacity 1s linear;
+}
+
+.toast--top--right {
+  top: 5rem;
+  right: 2rem;
+}
+
+.toast--bottom--left {
+  bottom: 2rem;
+  left: 3rem;
+}
+
+.toast--bottom--center {
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
