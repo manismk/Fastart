@@ -1,0 +1,20 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css);
+
+.rating--container {
+  display: flex;
+  gap: 0.8rem;
+}
+.star {
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: var(--success-light);
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--primary-color);
+}
+.star:hover {
+  transform: scale(1.5);
+}
+.star:hover,
+.star--checked {
+  color: var(--primary-color);
+}

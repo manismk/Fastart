@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 900px) {
+  .grid--3--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 640px) {
+  .grid--3--cols,
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
+}
