@@ -18,6 +18,11 @@
   font-family: cursive;
 }
 
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header nav {
   display: flex;
   gap: 1rem;

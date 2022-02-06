@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Shizuru&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css);
 
 :root {
   --primary-color: #065f46;
@@ -19,38 +20,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/*
-SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-SPACING SYSTEM (rem)
-0.125/0.25/0.5/0.75/1/1.5/2/3/4/5/6/8
-FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-FONT SIZE SYSTEM (rem)
-0.625 / 0.75 /0.875 / 1 / 1.125 / 1.25 /1.5/  1.875 /2.25 / 2.75 / 3.25 / 3.875 / 4.625 / 5.375 /6.125
-*/
-
-body {
-  font-family: "inter", sans-serif;
-  background-color: var(--bg-color);
-  color: var(--black);
-}
-
-.h1 {
-  font-size: 1.875rem;
-  padding: 1rem 0;
-}
-.h2 {
-  font-size: 1.5rem;
-  padding: 1rem 0 4px 0;
-}
-
-p {
-  font-size: 1.125rem;
-  line-height: 1.5em;
-  padding: 0.2rem 0;
 }
 
 .m-v-1 {
@@ -119,6 +88,6 @@ p {
   width: 100%;
 }
 
-.text-center {
-  text-align: center;
+.m-1 {
+  margin: 1rem;
 }

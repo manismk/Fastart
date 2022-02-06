@@ -1,3 +1,4 @@
+@import url(/css/guide.css);
 .grid {
   display: grid;
   gap: 1rem;
