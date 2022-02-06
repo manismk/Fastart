@@ -1,3 +1,17 @@
+@import url(/components/text/text.css);
+
+body {
+  font-family: "inter", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--black);
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  padding: 0.2rem 0;
+}
+
 .sidenavbar {
   padding: 1rem;
   overflow-y: auto;
@@ -10,6 +24,10 @@
   height: 80%;
 }
 
+.heading--2 {
+  margin-bottom: 0.5rem;
+}
+
 nav .side--nav--link,
 .pagination--link {
   display: block;
@@ -18,6 +36,7 @@ nav .side--nav--link,
   text-decoration: none;
   color: var(--black);
   border-radius: 5px;
+  font-weight: 500;
 }
 nav .side--nav--link:hover,
 nav .side--nav--link:focus {
@@ -39,12 +58,17 @@ nav .active:focus {
   padding: 1rem 2rem;
   font-weight: 500;
 }
-
+.embed--container {
+  max-width: 40rem;
+  max-height: 100%;
+  margin: 2rem auto;
+}
 .embed--code {
   width: 100%;
-  overflow-y: auto;
-  border-radius: 5px;
-  border: none;
+}
+
+.res--list {
+  margin-left: 2rem;
 }
 
 .pagination {
@@ -67,4 +91,40 @@ nav .active:focus {
 .container--nav--example {
   border: 1px solid var(--primary-color);
   position: relative;
+}
+
+.comp--container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--success-light);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+
+::selection {
+  color: var(--black);
+  background-color: var(--success-light);
+}
+
+@media only screen and (max-width: 780px) {
+  .sidenavbar {
+    display: none;
+  }
+  .main--container {
+    margin-left: 1rem;
+    padding: 1rem;
+  }
 }

@@ -5,79 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fastart | Button</title>
-    <link rel="stylesheet" href="/css/guide.css" />
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/docs.css" />
     <link rel="stylesheet" href="/components/button/button.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
     <header class="header">
-      <div class="logo">Fastart</div>
+      <div class="logo">
+        <a href="/index.html">Fastart</a>
+      </div>
       <nav>
-        <a class="nav-link" href="#">Github</a>
+        <a class="nav-link" href="https://github.com/manismk/fastart">Github</a>
       </nav>
     </header>
     <main>
       <aside class="sidenavbar">
         <nav>
-          <a href="#" class="side--nav--link">Usage</a>
-          <a href="#" class="side--nav--link">Alert</a>
-          <a href="#" class="side--nav--link">Avatar</a>
-          <a href="#" class="side--nav--link">Badge</a>
-          <a href="#" class="side--nav--link active">Button</a>
-          <a href="#" class="side--nav--link">Card</a>
-          <a href="#" class="side--nav--link">Image</a>
-          <a href="#" class="side--nav--link">Input</a>
-          <a href="#" class="side--nav--link">List</a>
-          <a href="#" class="side--nav--link">Toast</a>
-          <a href="#" class="side--nav--link">Navigation</a>
+          <p class="heading--4 text--bold">Get Started</p>
+          <a href="/docs.html" class="side--nav--link">Usage</a>
+          <p class="heading--4 text--bold">Components</p>
+          <a href="/components/alert/alert.html" class="side--nav--link"
+            >Alert</a
+          >
+          <a href="/components/avatar/avatar.html" class="side--nav--link"
+            >Avatar</a
+          >
+          <a href="/components/badge/badge.html" class="side--nav--link"
+            >Badge</a
+          >
+          <a
+            href="/components/button/button.html"
+            class="side--nav--link active"
+            >Button</a
+          >
+          <a href="/components/card/card.html" class="side--nav--link">Card</a>
+          <a href="/components/grid/grid.html" class="side--nav--link">Grid</a>
+          <a href="/components/image/image.html" class="side--nav--link"
+            >Image</a
+          >
+          <a href="/components/input/input.html" class="side--nav--link"
+            >Input</a
+          >
+          <a href="/components/list/list.html" class="side--nav--link">List</a>
+          <a href="/components/modal/modal.html" class="side--nav--link"
+            >Modal</a
+          >
+          <a
+            href="/components/navigation/navigation.html"
+            class="side--nav--link"
+            >Navigation</a
+          >
+          <a href="/components/rating/rating.html" class="side--nav--link"
+            >Rating</a
+          >
+          <a href="/components/slider/slider.html" class="side--nav--link"
+            >Slider</a
+          >
+          <a href="/components/text/text.html" class="side--nav--link">Text</a>
+          <a href="/components/toast/toast.html" class="side--nav--link"
+            >Toast</a
+          >
         </nav>
       </aside>
+
       <section class="main--container">
         <div class="m-v-1">
-          <h1 class="h1 primary-heading">Button</h1>
+          <h1 class="heading--2">Button</h1>
           <p>Button is an interactive element which is used in websites</p>
-          <h2 class="h2">Solid Buttons</h2>
+          <div class="m-t-1"></div>
+          <h2 class="heading--3">Solid Buttons</h2>
           <p>
             Buttons come in three different colors. You can access them using
             btn--primary, btn--secondary, btn--information
           </p>
-          <button class="btn btn--primary">Button</button>
-          <button class="btn btn--icon btn--secondary">
-            <i class="fas fa-times" aria-hidden="true"></i>Button
-          </button>
-          <button class="btn btn--information">Button</button>
-          <button class="btn btn--primary btn--disabled">Button</button>
-          <iframe
-            src="https://carbon.now.sh/embed/aLHwTCxr1iAxZ0zpHXFn"
-            class="embed--code m-v-2"
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-          <h2 class="h2">Outline Buttons</h2>
+          <div class="comp--container">
+            <button class="btn btn--primary">Button</button>
+            <button class="btn btn--icon btn--secondary">
+              <i class="fas fa-times" aria-hidden="true"></i>Button
+            </button>
+            <button class="btn btn--information">Button</button>
+            <button class="btn btn--primary btn--disabled">Button</button>
+          </div>
+
+          <div class="embed--container">
+            <embed
+              src="https://www.thiscodeworks.com/embed/61ffe4554dd44f0015f3cc44"
+              class="embed--code"
+            />
+          </div>
+          <h2 class="heading--3">Outline Buttons</h2>
           <p>outline buttons can be accessed using btn--outline</p>
-          <button class="btn btn--outline btn--primary">Button</button>
-          <button class="btn btn--outline btn--secondary">Button</button>
-          <button class="btn btn--outline btn--icon btn--information">
-            <i class="fas fa-check" aria-hidden="true"></i>Button
-          </button>
-          <button class="btn btn--outline btn--disabled btn--secondary">
-            Button
-          </button>
-          <iframe
-            src="https://carbon.now.sh/embed/F9acZiLye0IVrwe0TgS7"
-            class="embed--code m-v-2"
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-          <h2 class="h2">Styled Links</h2>
+          <div class="comp--container">
+            <button class="btn btn--outline btn--primary">Button</button>
+            <button class="btn btn--outline btn--secondary">Button</button>
+            <button class="btn btn--outline btn--icon btn--information">
+              <i class="fas fa-check" aria-hidden="true"></i>Button
+            </button>
+            <button class="btn btn--outline btn--disabled btn--secondary">
+              Button
+            </button>
+          </div>
+
+          <div class="embed--container">
+            <embed
+              src="https://www.thiscodeworks.com/embed/61ffe4a44dd44f0015f3cc45"
+              class="embed--code"
+            />
+          </div>
+          <h2 class="heading--3">Styled Links</h2>
           <p>
             Styled links can be accessed using link class and for color you can
             use link--primary,link--secondary,link--information
@@ -85,13 +120,14 @@
           <a href="#" class="link link--primary m-r-1">Link</a>
           <a href="#" class="link link--secondary m-r-1">Link</a>
           <a href="#" class="link link--information m-r-1">Link</a>
-          <iframe
-            src="https://carbon.now.sh/embed/hRuvij99uAKoDmmjOPxY"
-            class="embed--code m-v-2"
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-          <h2 class="h2">Icon Buttons</h2>
+
+          <div class="embed--container">
+            <embed
+              src="https://www.thiscodeworks.com/embed/61ffe56e4dd44f0015f3cc46"
+              class="embed--code"
+            />
+          </div>
+          <h2 class="heading--3">Icon Buttons</h2>
           <p>Icon buttons can be accessed using icon--btn class.</p>
           <button class="btn icon--btn m-r-1">
             <i class="fas fa-shopping-cart fa-2x" aria-hidden="true"></i>
@@ -99,14 +135,15 @@
           <button class="btn icon--btn">
             <i class="fas fa-times-circle fa-2x" aria-hidden="true"></i>
           </button>
-          <iframe
-            src="https://carbon.now.sh/embed/diu6rFYT6bI3WsYwOVsq"
-            class="embed--code m-v-2"
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
 
-          <h2 class="h2">Floating Action Button</h2>
+          <div class="embed--container">
+            <embed
+              src="https://www.thiscodeworks.com/embed/61ffe59b4dd44f0015f3cc48"
+              class="embed--code"
+            />
+          </div>
+
+          <h2 class="heading--3">Floating Action Button</h2>
           <p>Floating action button can be accessed using btn--fab class.</p>
           <button class="btn btn--fab btn--primary m-r-1">
             <i class="fas fa-plus" aria-hidden="true"></i>
@@ -114,17 +151,22 @@
           <button class="btn btn--fab btn--secondary">
             <i class="fas fa-arrow-up"></i>
           </button>
-          <iframe
-            src="https://carbon.now.sh/embed/4I1ONcotzpxfJFt5yJbh"
-            class="embed--code m-v-2"
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+
+          <div class="embed--container">
+            <embed
+              src="https://www.thiscodeworks.com/embed/61ffe5c84dd44f0015f3cc49"
+              class="embed--code"
+            />
+          </div>
         </div>
 
         <div class="pagination">
-          <a href="#" class="pagination--link">&lt Usage </a>
-          <a href="#" class="pagination--link"> Avatar &gt</a>
+          <a href="/components/badge/badge.html" class="pagination--link"
+            >&lt Badge
+          </a>
+          <a href="/components/card/card.html" class="pagination--link">
+            Card &gt</a
+          >
         </div>
       </section>
     </main>

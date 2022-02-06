@@ -1,5 +1,4 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css);
-
+@import url(/css/guide.css);
 @import url(/components/button/button.css);
 @import url(/components/image/image.css);
 
@@ -115,7 +114,7 @@
 /* Horizontal card style */
 .card--horizontal {
   display: flex;
-  min-width: 25rem;
+  max-width: 25rem;
 }
 
 .card--horizontal .card--img--container {
@@ -181,4 +180,10 @@
 /* Text card */
 .card--text img {
   display: none;
+}
+
+@media only screen and (max-width: 380px) {
+  .card--horizontal {
+    max-width: 18rem;
+  }
 }

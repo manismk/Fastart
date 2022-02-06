@@ -5,41 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fastart | List</title>
-    <link rel="stylesheet" href="/css/guide.css" />
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/docs.css" />
     <link rel="stylesheet" href="/components/list/list.css" />
-    <link rel="stylesheet" href="/components/text/text.css" />
   </head>
   <body>
     <header class="header">
-      <div class="logo">Fastart</div>
+      <div class="logo">
+        <a href="/index.html">Fastart</a>
+      </div>
       <nav>
-        <a class="nav-link" href="#">Github</a>
+        <a class="nav-link" href="https://github.com/manismk/fastart">Github</a>
       </nav>
     </header>
     <main>
       <aside class="sidenavbar">
         <nav>
-          <a href="#" class="side--nav--link">Usage</a>
-          <a href="#" class="side--nav--link">Alert</a>
-          <a href="#" class="side--nav--link">Avatar</a>
-          <a href="#" class="side--nav--link">Badge</a>
-          <a href="#" class="side--nav--link">Button</a>
-          <a href="#" class="side--nav--link">Card</a>
-          <a href="#" class="side--nav--link">Image</a>
-          <a href="#" class="side--nav--link">Input</a>
-          <a href="#" class="side--nav--link">List</a>
-          <a href="#" class="side--nav--link active">Text utils</a>
-          <a href="#" class="side--nav--link">Toast</a>
-          <a href="#" class="side--nav--link">Navigation</a>
+          <p class="heading--4 text--bold">Get Started</p>
+          <a href="/docs.html" class="side--nav--link">Usage</a>
+          <p class="heading--4 text--bold">Components</p>
+          <a href="/components/alert/alert.html" class="side--nav--link"
+            >Alert</a
+          >
+          <a href="/components/avatar/avatar.html" class="side--nav--link"
+            >Avatar</a
+          >
+          <a href="/components/badge/badge.html" class="side--nav--link"
+            >Badge</a
+          >
+          <a href="/components/button/button.html" class="side--nav--link"
+            >Button</a
+          >
+          <a href="/components/card/card.html" class="side--nav--link">Card</a>
+          <a href="/components/grid/grid.html" class="side--nav--link">Grid</a>
+          <a href="/components/image/image.html" class="side--nav--link"
+            >Image</a
+          >
+          <a href="/components/input/input.html" class="side--nav--link"
+            >Input</a
+          >
+          <a href="/components/list/list.html" class="side--nav--link">List</a>
+          <a href="/components/modal/modal.html" class="side--nav--link"
+            >Modal</a
+          >
+          <a
+            href="/components/navigation/navigation.html"
+            class="side--nav--link"
+            >Navigation</a
+          >
+          <a href="/components/rating/rating.html" class="side--nav--link"
+            >Rating</a
+          >
+          <a href="/components/slider/slider.html" class="side--nav--link"
+            >Slider</a
+          >
+          <a href="/components/text/text.html" class="side--nav--link active"
+            >Text</a
+          >
+          <a href="/components/toast/toast.html" class="side--nav--link"
+            >Toast</a
+          >
         </nav>
       </aside>
+
       <section class="main--container">
         <div class="m-v-1">
-          <h1 class="h1 primary-heading">Text Utils</h1>
+          <h1 class="heading--2">Text Utils</h1>
           <p class="m-b-1">These are reuseable text utils clsses.</p>
-          <h2 class="h2">Headings</h2>
+          <h2 class="heading--3">Headings</h2>
           <p>
             Headings can be accessed using heading--1, heading--2,heading--3,
             heading--4, heading--5, heading--6.
@@ -53,14 +86,14 @@
             <li class="list--item"><h6 class="heading--6">Heading 6</h6></li>
           </ul>
 
-          <iframe
-            src="https://carbon.now.sh/embed/R18ggFdoqz3zHFnHotR6"
-            class="embed--code m-v-1 m-b-2"
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+          <div class="embed--container">
+            <embed
+              src="https://www.thiscodeworks.com/embed/61fff9c04dd44f0015f3cc73"
+              class="embed--code"
+            />
+          </div>
 
-          <h2 class="h2">Paragraph</h2>
+          <h2 class="heading--3">Paragraph</h2>
           <p>
             Large paragraph, normal paragraph and small paragraph cab be
             accessed by using para--lg, para--md, para--sm classes respectively.
@@ -97,17 +130,22 @@
               </p>
             </li>
           </ul>
-          <iframe
-            src="https://carbon.now.sh/embed/uFS5h20GWrPJaGxOPe9c"
-            class="embed--code m-v-1 m-b-1"
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
+
+          <div class="embed--container">
+            <embed
+              src="https://www.thiscodeworks.com/embed/61fffa2a4dd44f0015f3cc75"
+              class="embed--code"
+            />
+          </div>
         </div>
 
         <div class="pagination">
-          <a href="#" class="pagination--link">&lt List </a>
-          <a href="#" class="pagination--link"> Modal &gt</a>
+          <a href="/components/slider/slider.html" class="pagination--link"
+            >&lt Slider
+          </a>
+          <a href="/components/toast/toast.html" class="pagination--link">
+            Toast &gt</a
+          >
         </div>
       </section>
     </main>
