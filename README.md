@@ -31,7 +31,7 @@ Check the [documention](https://fastart.netlify.app/docs.html) for details usage
 
 Fastart provide following Components 
 
-- [Avatar](https://fastart.netlify.app/components/alert/alert.html)
+- [Alert](https://fastart.netlify.app/components/alert/alert.html)
 - [Avatar](https://fastart.netlify.app/components/avatar/avatar.html)
     - Circular avatar
     - Square avatar
@@ -44,7 +44,7 @@ Fastart provide following Components
     - Styled links
     - Icon button
     - Floating action button
-- [card](https://fastart.netlify.app/components/card/card.html)
+- [Card](https://fastart.netlify.app/components/card/card.html)
     - Ecom card
     - Ecom card with favourite badge
     - Ecom with dismiss badge
@@ -54,7 +54,7 @@ Fastart provide following Components
  - [Grid](https://fastart.netlify.app/components/grid/grid.html)
     - Grid of two columns
     - Grid of three columns
- - [image](https://fastart.netlify.app/components/image/image.html)
+ - [Image](https://fastart.netlify.app/components/image/image.html)
     - Responsive image
     - Round image
  - [Input](https://fastart.netlify.app/components/input/input.html)
