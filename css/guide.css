@@ -9,13 +9,14 @@
   --success-light: #ccfbf1;
   --danger-light: #fee2e2;
   --danger-dark: #991b1b;
-  --grey: #1f2937;
+  --grey: #053b88;
   --alert-light: #fef9c3;
   --alert-dark: #92400e;
   --info-dark: #1e40af;
   --info-light: #dbeafe;
   --grey-text: #4b5563;
 }
+
 * {
   margin: 0;
   padding: 0;

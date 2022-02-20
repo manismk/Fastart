@@ -76,7 +76,6 @@ nav .active:focus {
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
-  padding-right: 3rem;
 }
 
 .pagination--link:hover,
@@ -126,5 +125,9 @@ nav .active:focus {
   .main--container {
     margin-left: 1rem;
     padding: 1rem;
+    margin-right: 1rem;
+  }
+  .pagination {
+    padding: 0;
   }
 }
