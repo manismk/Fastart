@@ -13,19 +13,22 @@
 }
 
 .btn--primary,
-.btn--outline.btn--primary:hover {
+.btn--outline.btn--primary:hover,
+.btn--fab.btn--primary:hover {
   border-color: var(--primary-color);
   background-color: var(--primary-color);
   color: var(--success-light);
 }
 .btn--secondary,
-.btn--outline.btn--secondary:hover {
+.btn--outline.btn--secondary:hover,
+.btn--fab.btn--secondary:hover {
   border-color: var(--danger-dark);
   background-color: var(--danger-dark);
   color: var(--danger-light);
 }
 .btn--information,
-.btn--outline.btn--information:hover {
+.btn--outline.btn--information:hover,
+.btn--fab.btn--information:hover {
   border-color: var(--info-dark);
   background-color: var(--info-dark);
   color: var(--info-light);
@@ -87,4 +90,5 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.34);
 }
